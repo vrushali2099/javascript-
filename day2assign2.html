@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+</head>
+<body>
+    <h5>  </h5>
+    <script>
+
+//String
+
+        let text = 'Welcome To The World Of Computer';
+         console.log(text);
+         console.log(text.toUpperCase());
+         console.log(text.toLowerCase());
+         console.log(text[5]);
+    
+    
+    // Replace
+    console.log(text.replace('Computer','Science'));
+    
+
+    // Substring
+    console.log(text.substring(3,7))
+
+
+    // Slice
+    console.log(text.slice(0,7));
+
+
+
+// Array
+
+    let arr = ['vrushali','chavan',[20,1999],'pune'];
+
+    console.log(arr);
+    console.log(Array.isArray(arr));
+    console.log(arr[2])
+
+    let arr1 = ['one','two','three'];
+    let arr2 = ['four','five','six'];
+    //concate
+    console.log(arr1.concat(arr2));
+    //push
+    arr2.push('seven');
+    console.log(arr2);
+    //pop
+    arr2.pop();
+    console.log(arr2);
+    //unshift
+    arr1.unshift('zero');
+    console.log(arr1);
+    //shift
+    arr1.shift('zero');
+    console.log(arr1);
+
+
+    //indexOf
+      console.log(arr2.indexOf('six'));
+
+
+    //splice
+    arr2.splice(1,1);
+    console.log(arr2);
+
+
+    // slice
+    console.log(arr.slice(1,4));
+ 
+
+    //includes
+     ans = arr2.includes('six')
+     console.log(ans);
+     
+
+    </script>
+    
+</body>
+</html>
