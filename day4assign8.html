@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 Assignment 8</title>
+</head>
+<body>
+    <h2>Replacing the function with arrow functions</h2>
+    <script>
+        function ask(question,yes,no)
+        {
+            if (confirm(question)) yes()
+            else no();
+        }
+
+        /*ask("Do you agree?",
+        function() {alert("you agreed.");},
+        function() {alert("you canceled the execution."); }
+        );*/
+        //here now, we are using arrow functions...!!!!
+        ask(
+            "Do you agree???",
+            () =>alert("you agreed...!!!"),
+            () => alert("you cancelled the execution..!!!"));
+    </script>
+</body>
+</html>
